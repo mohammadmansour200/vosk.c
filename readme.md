@@ -5,11 +5,11 @@
 Wav file should be in a PCM 16-bit mono format:
 
 ```bash
-ffmpeg -i <input_file_path> -ac 1 -sample_fmt s16 <output_file_path>.wav
+ffmpeg -i <input_file_path> -ar 16000 -ac 1 -sample_fmt s16 <output_file_path>.wav
 ```
 
 ```bash
-./vosk <model_folder_path> <wav_file_path>
+./vosk <model_folder_path> <wav_file_path> <output_json_file_path>
 ```
 
 ## Build

@@ -2,3 +2,5 @@ build
 .vscode
 vosk/*.so
 vosk/*.h
+vosk/*.dll
+vosk/*.lib
