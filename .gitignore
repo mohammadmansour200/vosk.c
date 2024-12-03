@@ -1,0 +1,4 @@
+build
+.vscode
+vosk/*.so
+vosk/*.h
